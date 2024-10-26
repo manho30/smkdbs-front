@@ -16,6 +16,7 @@ export default {
     HeaderContainer,
   },
   name: 'app',
+
   head() {
     return {
       meta: [

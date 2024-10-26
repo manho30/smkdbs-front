@@ -41,22 +41,22 @@ export default {
   data() {
     return {
       events: [
-        // {
-        //   title: "Pertandingan Marathon 2023",
-        //   date: "March 23, 2023",
-        //   period_days: 1,
-        //   description: "The marathon is a long-distance foot race with a distance of 42.195 km, usually run as a road race, but the distance can be covered on trail routes. The marathon can be completed by running or with a run/walk strategy. There are also wheelchair divisions.",
-        //   ended: null,
-        //   link: "#",
-        // },
-        // {
-        //   title: "Pertandingan Bunuh Diri 2023",
-        //   date: "April 1, 2023",
-        //   period_days: 3,
-        //   description: "If you think ur life is not meaningful, join this.",
-        //   ended: null,
-        //   link: "#",
-        // },
+        {
+          title: "Pertandingan Marathon 2023",
+          date: "March 23, 2023",
+          period_days: 1,
+          description: "The marathon is a long-distance foot race with a distance of 42.195 km, usually run as a road race, but the distance can be covered on trail routes. The marathon can be completed by running or with a run/walk strategy. There are also wheelchair divisions.",
+          ended: null,
+          link: "#",
+        },
+        {
+          title: "Pertandingan Bunuh Diri 2023",
+          date: "April 1, 2023",
+          period_days: 3,
+          description: "If you think ur life is not meaningful, join this.",
+          ended: null,
+          link: "#",
+        },
       ],
       DAY: 0,
     };
